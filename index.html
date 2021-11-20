@@ -1749,15 +1749,6 @@
             </style></span>
         </div><br><br>
     </div>
-    <div id=sidebar-right-ad><span id=ezoic-pub-ad-placeholder-136></span><span
-            class="ezoic-ad box-3 box-3136 adtester-container adtester-container-136"
-            data-ez-name=online_python_com-box-3><span id=div-gpt-ad-online_python_com-box-3-0 ezaw=120 ezah=240
-                style=position:relative;z-index:0;display:inline-block;padding:0;min-height:240px;min-width:120px
-                class=ezoic-ad>
-                <script data-ezscrex=false data-cfasync=false
-                    style=display:none>if (typeof __ez_fad_position != 'undefined') { __ez_fad_position('div-gpt-ad-online_python_com-box-3-0') };</script>
-            </span></span></div>
-    </div>
     <div class="modal fade" tabindex=-1 role=dialog id=downloadResult>
         <div class=modal-dialog role=document>
             <div class=modal-content>
@@ -1863,7 +1854,7 @@
             <div class=modal-content>
                 <div class=modal-header><button type=button class=close data-dismiss=modal aria-label=Close><span
                             aria-hidden=true>×</span></button>
-                    <h2 class=modal-title><strong>About online-python.com</strong></h2>
+                    <h2 class=modal-title><strong>About the IDE</strong></h2>
                 </div>
                 <div class="modal-body abountModalBody">
                     <p><a href=https://avms-python-emulator.netlify.app/ target=_blank>Online Python IDE </a>created by <a
@@ -1900,8 +1891,8 @@ print(f'Sum of {a} and {b} is {sum(a, b)}')\n\
         var share_url = base_url; var exe_cnt = 0; var addthis_share = { url: share_url, }
         var csrf_token_name = 'ci_csrf_token'
         var csrf_token = ''
-        var isMobile = window.orientation > -1; toastr.options = { "closeButton": true, "debug": false, "newestOnTop": true, "positionClass": "toast-top-right", "preventDuplicates": true, "preventOpenDuplicates": true, "maxOpened": 1, "onclick": null, "showDuration": "100", "hideDuration": "1000", "timeOut": "3000", "extendedTimeOut": "1000", "showEasing": "swing", "hideEasing": "linear", }; var instance = Split(['#mi', '#d'], { direction: 'vertical', sizes: [66, 60], gutterSize: 5, cursor: 'row-resize', minSize: [0, 180], onDrag: function () { editor.resize(); }, }); function term_expand() {
-            var element = document.getElementById('term-expand').innerHTML; if (element === '<i class="fas fa-expand-alt fa-lg"></i>') { instance.setSizes([0, 94]); editor.resize(); document.getElementById('term-expand').innerHTML = '<i class="fas fa-compress-alt fa-lg"></i>' } else { instance.setSizes([66, 60]); editor.resize(); document.getElementById('term-expand').innerHTML = '<i class="fas fa-expand-alt fa-lg"></i>' }
+        var isMobile = window.orientation > -1; toastr.options = { "closeButton": true, "debug": false, "newestOnTop": true, "positionClass": "toast-top-right", "preventDuplicates": true, "preventOpenDuplicates": true, "maxOpened": 1, "onclick": null, "showDuration": "100", "hideDuration": "1000", "timeOut": "3000", "extendedTimeOut": "1000", "showEasing": "swing", "hideEasing": "linear", }; var instance = Split(['#mi', '#d'], { direction: 'vertical', sizes: [65, 60], gutterSize: 0, cursor: 'row-resize', minSize: [0, 180], onDrag: function () { editor.resize(); }, }); function term_expand() {
+            var element = document.getElementById('term-expand').innerHTML; if (element === '<i class="fas fa-expand-alt fa-lg"></i>') { instance.setSizes([0, 94]); editor.resize(); document.getElementById('term-expand').innerHTML = '<i class="fas fa-compress-alt fa-lg"></i>' } else { instance.setSizes([65, 60]); editor.resize(); document.getElementById('term-expand').innerHTML = '<i class="fas fa-expand-alt fa-lg"></i>' }
             $('#term-expand').blur(); $('[data-toggle="tooltip"]').tooltip('hide');
         }
         editor.setOptions({ enableBasicAutocompletion: true, enableLiveAutocompletion: true, enableSnippets: true, showPrintMargin: false, fixedWidthGutter: true, autoScrollEditorIntoView: true, copyWithEmptySelection: true, highlightActiveLine: false, }); editor.setTheme("ace/theme/textmate"); editor.container.style.lineHeight = 1.5; editor_session[0] = ace.createEditSession(default_content, "ace/mode/python"); editor.setSession(editor_session[0]); var active_editor_id = $('#editor-1').children('a'); var active_file_name = 'main.py'; var repl_host = get_host(); var command_list = []; var command_index = 0; var cur_cmd; var hint_glow; var y = document.getElementById('editor_footer'); var output = document.getElementById('output'); var exec_detail = document.getElementById('output-status'); var progress_status = document.getElementById('progress-status'); var display_flag = true; $(function () { $('[data-toggle="tooltip"]').tooltip({ delay: { show: 750, hide: 50 } }) }); $(function () { $('[data-toggle="popover"]').popover({ delay: { "show": 0, hide: 0 } }) }); $('.popover-dismiss').popover({ trigger: 'hover' }); $(".nav-tabs").on("click", "a", function (e) { e.preventDefault(); detail_chk = (e.detail === undefined) ? 1 : e.detail; if (!$(this).hasClass('add-editor') && !$(this).children('input').hasClass('thVal') && detail_chk == 1) { active_editor = parseInt($(this).parent().attr('id').split('-')[1]); active_editor_id = $(this); editor.setSession(editor_session[active_editor - 1]); active_file_name = $(this).html(); $(this).tab('show'); editor.focus(); update_editor_footer(); undo_redo_update(); } }).on("click", "span", function () {
